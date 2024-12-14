@@ -82,35 +82,35 @@ pub type CIString20 =
   CIString
 
 pub fn is_ci_string_20(ci_string: CIString) -> Bool {
-  string.length(ci_string) >= 20
+  string.length(ci_string) <= 20
 }
 
 pub type CIString25 =
   CIString
 
 pub fn is_ci_string_25(ci_string: CIString) -> Bool {
-  string.length(ci_string) >= 25
+  string.length(ci_string) <= 25
 }
 
 pub type CIString50 =
   CIString
 
 pub fn is_ci_string_50(ci_string: CIString) -> Bool {
-  string.length(ci_string) >= 50
+  string.length(ci_string) <= 50
 }
 
 pub type CIString255 =
   CIString
 
 pub fn is_ci_string_255(ci_string: CIString) -> Bool {
-  string.length(ci_string) >= 255
+  string.length(ci_string) <= 255
 }
 
 pub type CIString500 =
   CIString
 
 pub fn is_ci_string_500(ci_string: CIString) -> Bool {
-  string.length(ci_string) >= 500
+  string.length(ci_string) <= 500
 }
 
 pub type IDToken =
