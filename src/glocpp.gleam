@@ -50,7 +50,6 @@ pub type ErrorCode {
   GenericError
 }
 
-// "": action should be a Type
 pub type MessageType {
   CallMessage(
     message_type: MessageTypeID,
